@@ -10,8 +10,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Globomantics.Satellite", "Globomantics.Satellite\Globomantics.Satellite.csproj", "{602F98A8-B81F-43AC-B34F-0C90B905FBF7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EF088FC5-BAB8-4085-AE10-E08FE2212A23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CFBEF67E-E8FD-4231-AFF9-981C5B9A0364}"
 	ProjectSection(SolutionItems) = preProject
-		nuget.config = nuget.config
+		.nuget\nuget.config = .nuget\nuget.config
 	EndProjectSection
 EndProject
 Global
