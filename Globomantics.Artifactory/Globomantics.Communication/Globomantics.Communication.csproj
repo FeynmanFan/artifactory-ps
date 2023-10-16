@@ -8,11 +8,8 @@
 
   <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Globomantics.Satellite" Version="1.0.0" />
     <PackageReference Include="Kentor.AuthServices" Version="0.23.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Globomantics.Satellite\Globomantics.Satellite.csproj" />
   </ItemGroup>
 
 </Project>
