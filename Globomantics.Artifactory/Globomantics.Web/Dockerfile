@@ -4,5 +4,5 @@ FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 EXPOSE 80
 EXPOSE 443
 WORKDIR /app
-COPY /publish .
+COPY ./publish .
 ENTRYPOINT ["dotnet", "Globomantics.Web.dll"]
