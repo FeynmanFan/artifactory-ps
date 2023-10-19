@@ -7,7 +7,9 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
+COPY ["nuget.config", "."]
 COPY ["Globomantics.Web/Globomantics.Web.csproj", "Globomantics.Web/"]
+COPY ["Globomantics.Communication/Globomantics.Communication.csproj", "Globomantics.Communication/"]
 RUN dotnet restore "Globomantics.Web/Globomantics.Web.csproj"
 COPY . .
 WORKDIR "/src/Globomantics.Web"
