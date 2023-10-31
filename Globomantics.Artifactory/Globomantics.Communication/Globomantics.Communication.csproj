@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -10,6 +10,7 @@
     <PackageReference Include="EntityFramework" Version="6.4.4" />
     <PackageReference Include="Globomantics.Satellite" Version="1.0.0" />
     <PackageReference Include="Kentor.AuthServices" Version="0.23.0" />
+    <PackageReference Include="UrLibrary-package" Version="0.9.0" />
   </ItemGroup>
 
 </Project>

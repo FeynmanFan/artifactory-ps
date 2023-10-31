@@ -1,0 +1,6 @@
+{
+  "errors" : [ {
+    "status" : 415,
+    "message" : "Unsupported Media Type"
+  } ]
+}

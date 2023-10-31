@@ -1,0 +1,52 @@
+[ {
+  "key" : "docker-trial",
+  "description" : "",
+  "type" : "LOCAL",
+  "url" : "https://globomantics.jfrog.io/artifactory/docker-trial",
+  "packageType" : "Docker"
+}, {
+  "key" : "globo-docker",
+  "description" : "",
+  "type" : "LOCAL",
+  "url" : "https://globomantics.jfrog.io/artifactory/globo-docker",
+  "packageType" : "Docker"
+}, {
+  "key" : "nuget-local",
+  "type" : "LOCAL",
+  "url" : "https://globomantics.jfrog.io/artifactory/nuget-local",
+  "packageType" : "NuGet"
+}, {
+  "key" : "tested",
+  "description" : "",
+  "type" : "LOCAL",
+  "url" : "https://globomantics.jfrog.io/artifactory/tested",
+  "packageType" : "Generic"
+}, {
+  "key" : "tf-trial",
+  "description" : "",
+  "type" : "LOCAL",
+  "url" : "https://globomantics.jfrog.io/artifactory/tf-trial",
+  "packageType" : "TerraformBackend"
+}, {
+  "key" : "nuget-remote",
+  "type" : "REMOTE",
+  "url" : "https://www.nuget.org/",
+  "packageType" : "NuGet"
+}, {
+  "key" : "pipelines-tasks-remote",
+  "description" : "",
+  "type" : "REMOTE",
+  "url" : "https://releases.jfrog.io/artifactory/pipelines-tasks",
+  "packageType" : "Generic"
+}, {
+  "key" : "pipelines-templates-remote",
+  "description" : "",
+  "type" : "REMOTE",
+  "url" : "https://releases.jfrog.io/artifactory/pipelines-templates",
+  "packageType" : "Generic"
+}, {
+  "key" : "nuget",
+  "type" : "VIRTUAL",
+  "url" : "https://globomantics.jfrog.io/artifactory/nuget",
+  "packageType" : "NuGet"
+} ]

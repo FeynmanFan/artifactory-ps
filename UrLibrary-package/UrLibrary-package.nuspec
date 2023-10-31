@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>UrLibrary-package</id>
+    <version>0.9.0</version>
+    <title>The Ur Library</title>
+    <authors>Chris B. Behrens</authors>
+    <description>This represents a manual packaging of an old installer</description>
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+</package>
